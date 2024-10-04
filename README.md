@@ -18,6 +18,12 @@ For the evaluation of VPN protocols, we designed a series of tests where we comp
 
 To compile the LaTeX files, you will need a LaTeX distribution installed on your system. You can compile the thesis by running:
 
-```bash
-pdflatex thesis.tex
+Dependencies:
+Pygments (on Mac `brew install Pygments`)
+Inkscape (to render SVGs)
 
+```bash
+pdflatex --shell-escape MagistrskaRV.tex
+bibtex MagistrskaRV.aux
+pdflatex --shell-escape MagistrskaRV.tex §
+pdflatex --shall-escape MagistrskaRV.tex #to fix the references
