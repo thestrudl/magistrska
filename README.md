@@ -19,7 +19,9 @@ For the evaluation of VPN protocols, we designed a series of tests where we comp
 To compile the LaTeX files, you will need a LaTeX distribution installed on your system. You can compile the thesis by running:
 
 Dependencies:
+
 Pygments (on Mac `brew install Pygments`)
+
 Inkscape (to render SVGs)
 
 ```bash
