@@ -1,0 +1,14 @@
+\typeout{}
+\typeout{UNI-LJ-FE-Diploma 09/2017}
+\typeout{Stilska opcija za zakljucna dela na Fakulteti za elektrotehniko Univerze v Ljubljani}
+\typeout{Izvedena iz DOKT-STYLE OPTION V.1.01 9.1.1992}
+
+% ----- SEZNAM SLIK ---------------------------------------------------------------
+\def\imeslik{Seznam slik} % <---
+\def\seznamslik{\@restonecolfalse
+  \if@twocolumn\@restonecoltrue\onecolumn\fi
+  \chapter*{\imeslik}
+  \@mkboth{{\imeslik}}{{\imeslik}}
+  \@starttoc{lof}\if@restonecol\twocolumn\fi
+}
+
