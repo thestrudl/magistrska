@@ -25,5 +25,5 @@ Inkscape (to render SVGs)
 ```bash
 pdflatex --shell-escape MagistrskaRV.tex
 bibtex MagistrskaRV.aux
-pdflatex --shell-escape MagistrskaRV.tex §
+pdflatex --shell-escape MagistrskaRV.tex
 pdflatex --shall-escape MagistrskaRV.tex #to fix the references
